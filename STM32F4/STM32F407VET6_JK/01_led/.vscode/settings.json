@@ -1,3 +1,22 @@
 {
+    "cmake.generator": "Unix Makefiles",
+    "cmake.configureEnvironment": {
+      "CMAKE_EXPORT_COMPILE_COMMANDS": "on"
+    },
+    "C_Cpp.default.intelliSenseMode": "gcc-arm",
+    "files.associations": {
+      "*.excalidraw": "json",
+      "*.excalidrawlib": "json",
+      "*.yrf": "json",
+      "*.rpx": "xml",
+      "*.stl": "json",
+      "stm32f4xx_hal.h": "c",
+      "stm32f4xx.h": "c",
+      "stdint.h": "c",
+      "mock_stm32f4xx_hal_gpio.h": "c",
+      "stm32f4xx_hal_gpio.h": "c"
+    },
+    "cortex-debug.gdbPath": "arm-none-eabi-gdb",
+    "cmake.options.statusBarVisibility": "visible",
     "cmake.sourceDirectory": "${workspaceFolder}"
 }

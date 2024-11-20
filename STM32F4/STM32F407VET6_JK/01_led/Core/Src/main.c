@@ -101,6 +101,10 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin); // Toggle LED2
+    HAL_Delay(500); // Delay for 500 ms
+
+
   }
   /* USER CODE END 3 */
 }
