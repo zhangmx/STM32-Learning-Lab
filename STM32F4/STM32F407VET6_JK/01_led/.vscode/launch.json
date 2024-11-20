@@ -3,12 +3,13 @@
   "configurations": [
     {
       "cwd": "${workspaceRoot}",
-      "executable": "${workspaceRoot}/build/${workspaceFolderBasename}.elf",
+      "executable": "${workspaceRoot}/build/Debug/STM32F407VET6_JK_led.elf",
       "name": "Debug with OpenOCD",
       "request": "launch",
       "type": "cortex-debug",
       "servertype": "openocd",
       "configFiles": ["interface/stlink.cfg", "target/stm32f4x.cfg"],
+      "device": "STM32F407VG",
       "searchDir": [],
       "runToEntryPoint": "main",
       "showDevDebugOutput": "raw"
