@@ -5,6 +5,11 @@
         "jeandudey.cortex-debug-dp-stm32h7",
         "ms-vscode.makefile-tools",
         "ms-vscode.vscode-serial-monitor",
-        "eclipse-cdt.peripheral-inspector"
+        "eclipse-cdt.peripheral-inspector",
+        "marus25.cortex-debug-dp-stm32f4",
+        "mcu-debug.memory-view",
+        "mcu-debug.rtos-views",
+        "mcu-debug.peripheral-viewer",
+        "ms-vscode.cmake-tools"
     ]
 }
